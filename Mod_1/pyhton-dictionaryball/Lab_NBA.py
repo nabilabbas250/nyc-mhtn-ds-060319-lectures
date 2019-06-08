@@ -90,3 +90,15 @@ game_dictionary = {'home': {'team_name': 'Brooklyn Nets',
                                                    'Steals': 22,
                                                    'Blocks': 5,
                                                    'slam dunks': 12}}}}
+                                    
+#def good_practices():
+  #for location, team_stats in game_dict().items():
+    # are you ABSOLUTELY SURE what 'location' and 'team_stats' are? use pdb.set_trace() to find out!
+    #import pdb; pdb.set_trace()
+      #for stats, data in team_stats.items():
+        # are you ABSOLUTELY SURE what 'stats' and 'data' are? use pdb.set_trace() to find out!
+        #import pdb; pdb.set_trace()
+        # what is 'data' at each level of the for loop block? when will we be able to iterate through a list? 
+        # When would the following line of code break?
+       # for item in data:
+            #print(item)

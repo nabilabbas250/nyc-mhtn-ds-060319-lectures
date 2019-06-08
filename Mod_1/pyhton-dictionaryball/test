@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Jun  7 10:57:46 2019
+
+@author: flatironschool
+"""
+
+from Lab_NBA import *
+
+def player_numbers(Team_Name):
+    Home_Numbers = []
+    Away_Numbers = []
+    if game_dictionary['home']['team_name'] == Team_Name:
+        for player_name in game_dictionary['home']['players'].values():
+            Home_Numbers.append(game_dictionary['home']['players'][player_name]['Number'].values)
+            print(player_name)
+            
+player_numbers('Brooklyn Nets')
